@@ -5,3 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "folium>=0.19.4",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+    "ruff>=0.9.1",
+    "wordcloud>=1.9.4",
+]
